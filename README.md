@@ -6,6 +6,8 @@ Este proyecto es una subasta descentralizada en Solidity desplegada en la red Se
 
 - Dirección: `0xe240fCA7b487FFaad32e7cf821ffeB6c32A514B0`
 - Etherscan: (https://sepolia.etherscan.io/address/0xe240fCA7b487FFaad32e7cf821ffeB6c32A514B0#code)
+- Wallet: `0x2edCC9A7c764898E9A26c1B7CE581124B0c52e8f`
+
 
 ## ⚙️ Funcionalidades
 
@@ -22,3 +24,13 @@ Este proyecto es una subasta descentralizada en Solidity desplegada en la red Se
 El contrato se despliega con una duración en minutos:
 ```solidity
 Subasta(30) // 30 minutos de duración
+
+## 📢 Eventos
+
+- `NuevaOferta`: Cada vez que se realiza una oferta válida.
+- `SubastaFinalizada`: Al finalizar la subasta.
+
+## 👨‍💻 Autor
+
+Trabajo realizado por Jassira Ramos como parte del Módulo 2 del curso Ethereum Developer.
+
